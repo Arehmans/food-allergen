@@ -26,11 +26,11 @@ Additionally, the dataset contains entries where no specific allergens are liste
 | Allergens       | Lists allergens associated with the product, indicating potential allergic reactions. |
 | Prediction      | Label for the food product based on ingredients and allergens.                        |
 
-#Code Information
+/src/ML.ipynb
+Performs allergen classification using machine learning and deep learning models. It includes feature extraction techniques such as TF-IDF, GloVe, and Bag of Words (BoW) for traditional machine learning models.
 
-/src/ML.ipynb  # Runs allergen classification with Machine & Deep learning including their feature extraction techinques with ML  like TFIDF,GLOVE and BOW.
-/src/DL.ipynb  # include deep learning code on various learning rate and batch size 
-
+/src/DL.ipynb
+Contains deep learning experiments with various learning rates and batch sizes, analyzing their impact on model performance.
 #Usage Instructions
 
 # Step 1: Clone repo
