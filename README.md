@@ -16,26 +16,15 @@ seafood (anchovies, fish, shellfish), grains (oats, rice), ingredients derived f
 animals (pork, poultry), and common components (cocoa, eggs). 
 Additionally, the dataset contains entries where no specific allergens are listed. Following Table shows some key attributes for this dataset.
 
-\begin{table}[h!]
-\centering
-\caption{Key Features of the Allergen Food Dataset}
-\label{tab2}
-
-\begin{tabular}{@{}lp{180pt}@{}}
-\toprule
-\textbf{Attribute} & \textbf{Description} \\
-\midrule
-Food Product & Contains information about food products. \\
-Main Ingredient & Describes the primary food ingredients. \\
-Sweetener & Indicates the type or presence of a sweetener used. \\
-Fat/Oil & Specifies the type or presence of fat or oil used. \\
-Seasoning & Lists spices or seasonings added to enhance flavor. \\
-Allergens & Lists allergens associated with the product, indicating potential allergic reactions. \\
-Prediction & Label for the food product based on ingredients and allergens. \\
-\bottomrule
-\end{tabular}%
-
-\end{table}
+| **Attribute**   | **Description**                                                                       |
+| --------------- | ------------------------------------------------------------------------------------- |
+| Food Product    | Contains information about food products.                                             |
+| Main Ingredient | Describes the primary food ingredients.                                               |
+| Sweetener       | Indicates the type or presence of a sweetener used.                                   |
+| Fat/Oil         | Specifies the type or presence of fat or oil used.                                    |
+| Seasoning       | Lists spices or seasonings added to enhance flavor.                                   |
+| Allergens       | Lists allergens associated with the product, indicating potential allergic reactions. |
+| Prediction      | Label for the food product based on ingredients and allergens.                        |
 
 #Code Information
 
@@ -45,7 +34,7 @@ Prediction & Label for the food product based on ingredients and allergens. \\
 #Usage Instructions
 
 # Step 1: Clone repo
-git clone https://github.com/your-repo/allergen-detection.git
+git clone https://github.com/food-allergen/allergen-detection.git
 
 # Step 2: Install dependencies
 pip install -r requirements.txt
