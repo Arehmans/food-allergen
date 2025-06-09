@@ -6,7 +6,7 @@ This project presents a machine learning-based system that identifies allergens 
 It integrates image preprocessing, text recognition (OCR), and a classification model to detect potential allergens in real-time.
 
 #Dataset Information
-The dataset of food ingredients and allergies is sourced from Kaggle \cite{Dataset}. 
+The dataset of food ingredients and allergies is sourced from Kaggle [\cite{Dataset}](https://www.kaggle.com/datasets/uom190346a/food-ingredients-and-allergens). 
 The dataset consists of a collection of information regarding allergens present in various food items.
  The data has information about allergy-related ingredients in different food items. 
  The dataset consists of 400 records and 7 attributes, each representing a specific food item and its associated allergens. 
@@ -28,13 +28,13 @@ Additionally, the dataset contains entries where no specific allergens are liste
 
 #Code Information
 
-/src/ML.ipynb  # Runs allergen classification with Machine&Deep learning including their feature extraction techinques with ML  like TFIDF,GLOVE and BOW.
+/src/ML.ipynb  # Runs allergen classification with Machine & Deep learning including their feature extraction techinques with ML  like TFIDF,GLOVE and BOW.
 /src/DL.ipynb  # include deep learning code on various learning rate and batch size 
 
 #Usage Instructions
 
 # Step 1: Clone repo
-git clone https://github.com/food-allergen/allergen-detection.git
+git clone https://github.com/Arehmans/food-allergen.git
 
 # Step 2: Install dependencies
 pip install -r requirements.txt
