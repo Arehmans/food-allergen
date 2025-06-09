@@ -1,11 +1,11 @@
-#Title
+# Title
 Real-time food allergen detection using OCR-enhanced machine learning techniques
 
-#Description
+# Description
 This project presents a machine learning-based system that identifies allergens in packaged food items using OCR and text classification.
 It integrates image preprocessing, text recognition (OCR), and a classification model to detect potential allergens in real-time.
 
-#Dataset Information
+# Dataset Information
 The dataset of food ingredients and allergies is sourced from Kaggle [\cite{Dataset}](https://www.kaggle.com/datasets/uom190346a/food-ingredients-and-allergens). 
 The dataset consists of a collection of information regarding allergens present in various food items.
  The data has information about allergy-related ingredients in different food items. 
@@ -14,7 +14,7 @@ The dataset consists of a collection of information regarding allergens present 
 These allergens include a broad spectrum of foods, including dairy, wheat, and nuts (almonds, peanuts, pine nuts), 
 seafood (anchovies, fish, shellfish), grains (oats, rice), ingredients derived from plants (celery, mustard, soybeans), 
 animals (pork, poultry), and common components (cocoa, eggs). 
-Additionally, the dataset contains entries where no specific allergens are listed. Following Table shows some key attributes for this dataset.
+Additionally, the dataset contains entries where no specific allergens are listed. The following Table shows some key attributes for this dataset.
 
 | **Attribute**   | **Description**                                                                       |
 | --------------- | ------------------------------------------------------------------------------------- |
@@ -26,6 +26,7 @@ Additionally, the dataset contains entries where no specific allergens are liste
 | Allergens       | Lists allergens associated with the product, indicating potential allergic reactions. |
 | Prediction      | Label for the food product based on ingredients and allergens.                        |
 
+# Code Information
 /src/ML.ipynb
 Performs allergen classification using machine learning and deep learning models. It includes feature extraction techniques such as TF-IDF, GloVe, and Bag of Words (BoW) for traditional machine learning models.
 
