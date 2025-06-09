@@ -34,15 +34,18 @@ Performs allergen classification using machine learning and deep learning models
 # /src/DL.ipynb
 
 Contains deep learning experiments with various learning rates and batch sizes, analyzing their impact on model performance.
+# dataset  /src/food_ingredients_and_allergens.csv
+This file contains the core dataset used for training and evaluation. It includes detailed information about food products, their ingredients, potential allergens, and corresponding prediction labels. Each row represents a unique food item with attributes such as main ingredients, sweeteners, fats/oils, seasonings, and known allergens.
 
-#Usage Instructions
+# Usage Instructions
 
 # Step 1: Clone repo
 git clone https://github.com/Arehmans/food-allergen.git
 
 # Step 2: Install dependencies
 pip install -r requirements.txt
-
-# Step 3: Run system
-Just open notebook and run all cells.
+# Step 3: Load dataset 
+Check and verify the path of the dataset
+# Step 4: Run system
+Just open the notebook and run all the cells.
 
